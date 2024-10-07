@@ -1,0 +1,27 @@
+[versions]
+protobuf = "4.26.1"
+grpc = "1.63.0"
+
+[libraries]
+assertj = "org.assertj:assertj-core:3.25.1"
+aws-kms = "software.amazon.awssdk:kms:2.22.9"
+azure-identity = "com.azure:azure-identity:1.8.0"
+azure-security-keyvault-key = "com.azure:azure-security-keyvault-keys:4.5.4"
+bouncycastle-prov = "org.bouncycastle:bcprov-jdk18on:1.78.1"
+bouncycastle-pkix = "org.bouncycastle:bcpkix-jdk18on:1.78.1"
+gcloud-kms = "com.google.cloud:google-cloud-kms:2.9.0"
+grpc-core = { module = "io.grpc:grpc-core", version.ref = "grpc" }
+grpc-netty = { module = "io.grpc:grpc-netty", version.ref = "grpc" }
+grpc-protobuf = { module = "io.grpc:grpc-protobuf", version.ref = "grpc" }
+grpc-services = { module = "io.grpc:grpc-services", version.ref = "grpc" }
+grpc-stub = { module = "io.grpc:grpc-stub", version.ref = "grpc" }
+gson = "com.google.code.gson:gson:2.10.1"
+junit = "org.junit.jupiter:junit-jupiter:5.9.2"
+junit-params = "org.junit.jupiter:junit-jupiter-params:5.9.2"
+logback = "ch.qos.logback:logback-classic:1.4.14"
+picocli = "info.picocli:picocli:4.7.6"
+picocli-codegen = "info.picocli:picocli-codegen:4.7.6"
+prodist-sts-api = "dev.prodist.sts.jvm:sts-api:2.0-302+7b32d934"
+slf4j-api = "org.slf4j:slf4j-api:2.0.9"
+slf4j-jul = "org.slf4j:jul-to-slf4j:2.0.9"
+slf4j-simple = "org.slf4j:slf4j-simple:2.0.9"
