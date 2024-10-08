@@ -5,6 +5,13 @@ pluginManagement {
         id("com.google.protobuf") version("0.9.4")
     }
 }
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
+
 rootProject.name = "semeru-issue-93"
 
 include("api")
